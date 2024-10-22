@@ -1,6 +1,9 @@
 package app;
 
 
+import javax.swing.*;
+import java.awt.*;
+
 import data_access.InMemoryUserDataAccessObject;
 import interface_adapter.ViewManagerModel;
 import interface_adapter.logged_in.LoggedInViewModel;
@@ -10,10 +13,6 @@ import view.LoggedInView;
 import view.LoginView;
 import view.SignupView;
 import view.ViewManager;
-
-import javax.swing.*;
-import java.awt.*;
-
 /**
  * The version of Main with an external database used to persist user data.
  */
